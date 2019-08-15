@@ -7,13 +7,15 @@
       <link href="assets/styles/main.css" rel="stylesheet">
 
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
       <script src="assets/scripts/index.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
     <body id="page-top">
 
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-3" id="mainNav">
         <div class="container">
-          <a class="navbar-brand js-scroll-trigger" href="#page-top">Thomas O'Hearne</a>
+          <a class="navbar-brand" href="#page-top">Thomas O'Hearne</a>
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -160,9 +162,8 @@
                     EDH Deck Tools
                   </div>
                   <hr class="divider my-4">
-                  <p>Developed a deck-building site for the Magic: The Gathering card game, this site uses React.js for it's front
-end, a Ruby on Rails back end and a PostgreSQL database to store user and deck data. A 3rd party API (Scryfall) is used to
-retrieve card data.</p>
+                  <p>I developed this site to assist in deck-building for the "Magic: The Gathering" card game, For this project I used React.js for the front
+end and a Ruby on Rails back end with a PostgreSQL database to store user and deck data. In order to retreve the large amounts of card data I need I integrated a 3rd party API (Scryfall) which takes a single uri encoded html GET request and returns the card data specified.</p>
                 </div>
               </a>
             </div>
@@ -177,8 +178,8 @@ retrieve card data.</p>
                     Survey Says
                   </div>
                   <hr class="divider my-4">
-                  <p>Worked with a team of 3 others to design and build a site for creating and taking surveys. Created the backend
-schema using Express.js with MongoDB and front end features using Javascript, HTML and Jquery.</p>
+                  <p>Working with a team of 3 others we designed and build a site for creating and taking surveys. Through a combination of solo work and pair programming I create much of the backend
+schema using Express.js with MongoDB to store the information. Using Javascript, HTML and Jquery I also worked on several front end features such as the dynamic forms which allow users create edit surveys as well as add or remove answers (max: 10, min: 2).</p>
                 </div>
               </a>
             </div>
@@ -193,8 +194,8 @@ schema using Express.js with MongoDB and front end features using Javascript, HT
                     Recipe Database
                   </div>
                   <hr class="divider my-4">
-                  <p>Developed a site for sharing, viewing and liking recipes. Created front end features with Javascript, HTML
-and Jquery. Developed the back end with Ruby on Rails and PostgreSQL.</p>
+                  <p>I developed this site for sharing, viewing and favoriting recipes. I created the front end features with Javascript, HTML
+and Jquery. The back end I developed with Ruby on Rails and PostgreSQL.</p>
                 </div>
               </a>
             </div>
@@ -209,8 +210,8 @@ and Jquery. Developed the back end with Ruby on Rails and PostgreSQL.</p>
                     Tic-Tac-Toe
                   </div>
                   <hr class="divider my-4">
-                  <p>Developed a site for playing tic-tac-toe. Created the front end features and game logic with Javascript, HTML and
-Jquery. Used Ajax to send the HTML requests to a RESTful API which stores all of the game and user data.</p>
+                  <p>I deveoped this site for playing tic-tac-toe. I created the front end features and game logic with Javascript, HTML and
+Jquery. I used Ajax to send the HTML requests to a RESTful API which stores all of the game and user data. The user's game history is used to generate stats about how many games they have finished as well as a win persentage.</p>
                 </div>
               </a>
             </div>
@@ -226,9 +227,9 @@ Jquery. Used Ajax to send the HTML requests to a RESTful API which stores all of
               <hr class="divider my-4">
               <form method="POST" action="https://formspree.io/thomas.ohearne@yahoo.com">
                 <input type="hidden" name="_subject" value="Contact request from portfolio" /><br>
-                <input type="email" name="_replyto" placeholder="Your email" required><br>
-                <textarea name="message" placeholder="Your message" required></textarea><br>
-                <button type="submit">Send</button>
+                <input class='form-control' type="email" name="_replyto" placeholder="Your email" required><br>
+                <textarea class='form-control' name="message" placeholder="Your message" required></textarea><br>
+                <button class='btn button btn-primary' type="submit">Send</button>
               </form>
             </div>
           </div>
