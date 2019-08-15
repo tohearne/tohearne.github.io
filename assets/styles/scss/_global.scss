@@ -49,11 +49,13 @@ hr.light {
   margin-top: 20px; }
 
 .down-arrow {
-  border: solid black;
+  border: solid white;
   border-width: 0 3px 3px 0;
   color: white;
   display: inline-block;
-  margin-top: 300px;
   padding: 3px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg); }
+
+.down-arrow-padding {
+  margin-top: 300px; }
